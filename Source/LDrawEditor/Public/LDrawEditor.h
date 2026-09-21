@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FLDrawModule : public IModuleInterface
+class FLDrawEditorModule : public IModuleInterface
 {
 public:
 
