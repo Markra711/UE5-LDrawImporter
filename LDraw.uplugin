@@ -4,7 +4,7 @@
 	"VersionName": "1.0",
 	"FriendlyName": "LDraw",
 	"Description": "",
-	"Category": "",
+	"Category": "LDraw",
 	"CreatedBy": "Markra",
 	"CreatedByURL": "",
 	"DocsURL": "",
@@ -18,6 +18,11 @@
 		{
 			"Name": "LDraw",
 			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "LDrawEditor",
+			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
 	]

@@ -1,24 +1,20 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "LDraw.h"
+#include "LDrawEditor.h"
 
-#include "LDrawLog.h"
+#define LOCTEXT_NAMESPACE "FLDrawEditorModule"
 
-DEFINE_LOG_CATEGORY(LogLDraw);
-
-#define LOCTEXT_NAMESPACE "FLDrawModule"
-
-void FLDrawModule::StartupModule()
+void FLDrawEditorModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
-void FLDrawModule::ShutdownModule()
+void FLDrawEditorModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
 }
 
 #undef LOCTEXT_NAMESPACE
-	
-IMPLEMENT_MODULE(FLDrawModule, LDraw)
+
+IMPLEMENT_MODULE(FLDrawEditorModule, LDrawEditor)
