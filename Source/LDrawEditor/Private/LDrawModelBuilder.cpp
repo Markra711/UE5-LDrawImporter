@@ -179,8 +179,14 @@ bool LDrawModelBuilder::FillStaticMesh(const FString& FilePath, UStaticMesh* Sta
 
 		/*
 		The transform already is in Unreal space. AppendMeshDescription applies it to
-		positions, normals and tangents, and reverses the winding order for mirrored
-		parts, which LDraw expresses as a matrix with a negative determinant.
+		positions, normals and tangents.
+
+		It would also reverse the winding order for a mirrored part, which LDraw
+		expresses as a matrix with a negative determinant, but it never gets the
+		chance: FLDrawTransformConverter::Convert builds the rotation from axes and
+		fixes the scale at one, so the determinant is always positive and the
+		mirroring is already gone by this point. Mirrored parts therefore come in
+		unmirrored.
 		*/
 		AppendSettings.MeshTransform = Part.Transform;
 
