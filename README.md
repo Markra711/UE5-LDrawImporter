@@ -2,7 +2,7 @@
 
 An editor plugin that imports LDraw models (`.ldr`) into Unreal Engine 5 as ready-to-use Static Meshes, complete with materials, and keeps them reimportable.
 
-![LDraw model imported into Unreal Engine 5](docs/screenshot.png)
+![LDraw Importer — import brick models into Unreal Engine 5](docs/cover.png)
 
 LDraw is the open file format behind most digital brick-building tools such as Stud.io, LDCad and LeoCAD. This plugin lets you build a model in one of those tools and drag the file straight into the Content Browser.
 
