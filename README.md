@@ -68,7 +68,7 @@ UStaticMesh asset
 
 ## Credits and licence
 
-- Part geometry is converted from the [LDraw Parts Library](https://library.ldraw.org). Depending on the part, it is licensed under CC BY 4.0 or CC BY 2.0; see [CAreadme.txt](CAreadme.txt) for details. Thanks to all LDraw part authors.
+- Part geometry is derived from the [LDraw Parts Library](https://library.ldraw.org) by the LDraw.org contributors. Depending on the part, it is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/); the per-part licence is named in each original file's header, see [CAreadme.txt](CAreadme.txt). **The geometry has been modified:** the original `.dat` files were converted to Unreal Static Meshes and their edges beveled. Thanks to all LDraw part authors.
 - Plugin code: see [LICENSE](LICENSE).
 
 LEGO® is a trademark of the LEGO Group, which does not sponsor, authorise or endorse this project.
